@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+    
+
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    background: url(../components/image/bannertopo.png);
+    background-repeat: repeat-x;
+    overflow-x: hidden; 
+
+}
+
+
+
+/* --------- MENU --------- */
+
+nav {
+
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: #1A7FBD;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+
+}
+
+nav ul {
+
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+
+}
+
+nav ul li {
+
+  margin: 0 5px;
+
+} 
+
+nav ul li a {
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+
+    background: black;
+
+}
+
+nav .menu-btn i {
+
+    color: white;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+
+/* --------- FIM MENU --------- */
+
+
+
+/* --------- FORMULARIO --------- */
+
+.form {
+   
+    position: relative;
+    top: 15%;
+    left: 70%;
+    border-radius: 10px;
+    width: min-content;
+    
+    
+}
+
+.parte-um {
+
+    margin-left: 0%;
+    margin-top: 7%;
+    color: #C0C0C0;
+    border-radius: 9px 9px 9px 9px;
+    min-height: 310px;
+    width: 380px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    
+}
+
+.input {
+
+    color: #040404;
+    border-radius: 6px;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    border: 1px solid #C0C0C0;
+
+}
+
+.input-container2 {
+
+    color: black;
+     
+}
+
+#aprender {
+
+    color: #000000;
+    border-radius: 6px;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+    padding-left: 38px;
+    border: 1px solid #C0C0C0;
+
+
+}
+
+.title-sub {
+
+    color: #1A7FBD;
+
+}
+
+#container-form {
+
+    background: #1A7FBD
+    
+}
+
+#container-ultim {
+
+    background: white;
+}
+
+input:hover{
+    color: #000000;
+    border: 1px solid #1A7FBD;
+}
+
+#aprender:hover{
+    color: #000000;
+    border: 1px solid #1A7FBD;
+}
+
+.login-title2 {
+
+    color: #1A7FBD;
+    padding-left: 25px;
+    padding-top: 10px;
+
+}
+
+
+#container-input {
+
+    box-sizing: border-box;
+    margin-left: 65%;
+    margin-top: 0;
+    min-height: 130px;
+    width: 380px;
+    background-color: #1A7FBD
+   
+
+}
+
+.col1 {
+
+    padding-left: 25px;
+
+}
+
+#container-ultim {
+
+    margin-left: 0%;
+    margin-top: 0;
+    min-height: 130px;
+    width: 380px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+
+.login-title3 {
+
+    color: #1A7FBD;
+
+}
+
+
+
+h6 {
+
+    text-align: center;
+    color: #1A7FBD;
+
+}
+
+.btn {
+
+margin-top: 10%;
+width: 100%;
+text-align: center;
+
+}
+
+.btn button {
+
+    background: #1A7FBD;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 1.2rem;
+    color: #FFF;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.pm {
+
+    text-align: center;
+    font-size: 10px;
+    color: #C0C0C0;
+
+}
+
+/* --------- FIM FORMULARIO --------- */
+
+
+/* --------- 2 IMAGEM --------- */
+
+
+.projeto {
+
+    font-size: 40px;
+    color: #6baffc;
+    margin-top: 20%;
+
+}
+
+.projetinho {
+    
+    color: #eee8e8e8;
+    margin-top: 7%;
+
+}
+
+.tudo {
+
+    
+    margin-left: 0%;
+    margin-top: 3%;
+    background-color: rgb(47, 127, 202);
+    
+    
+
+}
+
+#imgg {
+
+    
+    background-color: #1A7FBD;
+    height:700px;
+    
+
+}
+
+.two-parte {
+    
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5%;
+
+}
+
+.imggg {
+
+    size: 300px;
+     
+}
+
+/* --------- FIM 2 IMAGEM --------- */
+
+
+
+/* --------- 3 IMAGEM --------- */
+
+
+.projeto2 {
+
+    font-size: 35px;
+    color: #72a6e2;
+    margin-top: 20%;
+
+}
+
+
+
+.projetinho2 {
+    
+    color: #3a3b3b;
+    margin-top: 10%;
+
+}
+
+.projetinho21 {
+    
+    color: #020101;
+    margin-top: 10%;
+
+}
+
+.tudo2 {
+
+    
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: rgb(47, 127, 202);
+    
+    
+
+}
+
+#imgg2 {
+
+    
+    background-color: #FFF;
+    height:800px;
+    
+
+}
+
+.two-parte2 {
+    
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5%;
+
+}
+
+.imggg2 {
+
+   background-size: 60px;
+     
+}
+
+main.cards{ 
+
+    display: flex;
+    padding-left: 300px;
+    
+}
+
+main.cards section.card {
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 2500px;
+    margin-left: 70px;
+}
+
+
+main.cards section.card:first-child {
+
+    margin-left: 0;
+}
+
+
+.jornada {
+
+    align-items: center;
+
+}
+
+.text-jornada {
+
+   color: #1A7FBD;
+   text-align: center;
+   margin-top: 15%;
+   margin-left: 8%;
+
+}
+
+main.cards2{ 
+
+    display: flex;
+    padding-left: 300px;
+    
+}
+
+main.cards2 section.card2 {
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #2187b0;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 2500px;
+    margin-left: 70px;
+}
+
+
+main.cards section.card:first-child {
+
+    margin-left: 0;
+}
+
+
+.text-jornada {
+
+   color: #1A7FBD;
+   text-align: center;
+   margin-top: 15%;
+   margin-left: 8%;
+
+}
+
+
+
+/* --------- FIM 3 IMAGEM --------- */
+
+
+
+/* --------- PARTE 4 --------- */
+
+
+main.carta {
+
+   display: flex;
+   padding: 10 10px;
+   
+   
+   
+
+}
+
+main.carta section.cart {
+
+   display: flex;
+   align-items: center;
+   padding: 1rem 1.5rem;
+   border-radius: 5%;
+   margin-left: 75px;
+   background: #1A7FBD;
+   width: 25%;
+
+}
+
+main.carta section.cart:first-child {
+
+   margin-left: 10.4%;
+
+} 
+
+main.carta section.cart .icon {
+
+   width: 40px;
+   height: 45px;
+   background-color: #C0C0C0;
+   border-radius: 7px;
+   padding: 5px;
+   padding-top: 9px;
+   
+   
+   
+}
+
+main.carta section.cart img {
+
+  width: 100%;
+
+}
+
+.span2 {
+
+ color: #C0C0C0;
+ padding-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+main.carta2 {
+
+    display: flex;
+    padding: 10px;
+   
+    
+    
+ 
+ }
+ 
+ main.carta2 section.cart2 {
+ 
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 5%;
+    margin-left: 80px;
+    background: #1A7FBD;
+    width: 25%;
+ 
+ }
+ 
+ main.carta2 section.cart2:first-child {
+ 
+    margin-left: 10%;
+ 
+ } 
+ 
+ main.carta2 section.cart2 .icon2 {
+ 
+    width: 40px;
+    height: 45px;
+    background-color: #C0C0C0;
+    border-radius: 7px;
+    padding: 5px;
+    padding-top: 9px;
+    
+    
+    
+ }
+ 
+ main.carta2 section.cart2 img {
+ 
+   width: 100%;
+ 
+ }
+ 
+ .span2 {
+ 
+  color: #C0C0C0;
+  padding-top: 5px;
+  padding-left: 5px;
+  align-items: center;
+ 
+ }
+ 
+
+
+/* --------- FIM 4 PARTE --------- */   
+
+
+
+
+/* --------- 5 PARTE --------- */   
+
+main.botos {
+   
+  background: #000000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  border-radius: 6px;
+  margin-left: 35%;
+  margin-right: 30%;
+
+}
+
+main.botos section.boto {
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+
+
+}
+
+.span3 {
+  
+  color: white; 
+  margin-left: 50px; 
+  font-size: 17px;
+
+}
+
+.unico {
+
+  color: #1A7FBD;
+
+}
+
+main.botos section.boto img {
+
+   width: 70%;
+   margin-top: 8px;
+   
+
+}
+
+main.botos section.boto .icon {
+
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.imagem3 {
+
+   background: white;
+   margin-left: 45%;
+   margin-right: 30%;
+    
+}
+
+
+/* --------- FIM 5 PARTE --------- */   
+
+
+
+/* --------- 6 PARTE --------- */  
+
+
+main.cardss{ 
+
+    position: absolute;
+    display: flex;
+    padding-left: 190px;
+    margin-top: 200px;
+    
+}
+
+main.cardss section.cards {
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 4rem;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    border: 1px solid #1885c9;
+
+}
+
+
+.Jornada2 {
+
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 47%;
+  margin-right: 30%;
+  color: #FFF;
+
+}
+
+.text-jornada2 {
+
+    align-items: center;
+    
+ 
+
+
+}
+
+
+/* --------- FIM 6 PARTE --------- */  
+
+
+/* --------- ULTIMA PARTE --------- */  
+
+
+.wrapper {
+
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer {
+	background-color: rgb(0, 0, 0);
+	padding: 5em 0;
+	padding-bottom: 40px;
+	
+}
+
+#bok {
+
+    font-size: 12px;
+    color: whitesmoke;
+
+}
+
+.button-ult {
+
+    margin-top: 30px;
+    background: #e7ebee;
+    width:65%;
+    height: 40px;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border: 1px solid #72a6e2;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.footer-box2 {
+
+    margin-left: 80%;
+   
+
+}
+
+main.cardsss{ 
+
+    position: absolute;
+    display: flex;
+    padding-left: 200px;
+    margin-left: 550px;
+    
+}
+
+main.cardsss section.cardss {
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1px 1rem;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    color: whitesmoke;
+    
+
+}
+
+footer h2 {
+	font-weight: 400;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style: none;
+}
+
+.footer-box {
+	width: 31%;
+	padding: 1%;
+	float: left;
+    padding-right: 5px;
+    
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+/* --------- FIM ULTIMA PARTE --------- */  
+
+
+/* --------- RESPONSIVIDADE --------- */  
+
+
+@media (max-width: 920px) {
+
+    nav .menu-btn i {
+
+        display: block;
+    }
+
+    nav ul {
+
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #1A7FBD;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+
+    }
+
+    nav ul.open {
+
+        left: 0;
+    }
+
+    nav ul li {
+
+        width: 100%;
+        margin: 50px 0;
+
+    } 
+
+    nav ul li a {
+
+        font-size: 23px;
+
+    }
+
+    nav ul li a .active,
+    nav ul li a:hover {
+
+        background: none;
+        color: #1A7FBD;
+    }
+
+    .form {
+   
+        
+        height: 100vh;
+        width: 100%;
+        
+        
+    }
+
+    main.carta2 {
+
+        display: flex;
+        padding: 10px;
+       
+     
+     }
+
+     main.carta {
+
+        display: flex;
+        padding: 10px;
+       
+        
+        
+     
+     }
+
+}
+
+
+
+/* --------- FIM RESPONSIVIDADE --------- */  
